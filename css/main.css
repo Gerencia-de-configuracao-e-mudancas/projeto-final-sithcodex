@@ -32,7 +32,25 @@ body{
 }
 .options > ul > li:hover{
     transform: scale(1.2);
-    transition: 0.3s;
+    transition: 0.2s;
+}
+a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+li > a::after{
+    content: " ";
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+}
+li > a:hover::after{
+    width: 100%;
 }
 .options > ul{
     display: grid;
