@@ -1,5 +1,5 @@
 body{
-    animation: backroun-animate 40s infinite;
+    animation: backround-animate 40s infinite;
     transition: background-image 2s ease-in-out;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,33 @@ a{
     text-decoration: none;
     color: white;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    border-radius: 10px;
 }
+.first:hover{
+    background-image: url(../assets/icons/botão_img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.8;
+}
+.second:hover{
+    background-image: url(../assets/icons/gangue_btn.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.8;
+}
+.last:hover{
+    background-image: url(../assets/icons/animais_btn.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.8;
+}
+
 li > a::after{
     content: " ";
     width: 0%;
@@ -62,7 +88,7 @@ li > a:hover::after{
     font-weight: 200;
     font-family: 'Chinese Rocks Rg';
 }
-@keyframes backroun-animate{
+@keyframes backround-animate{
     0% { background-image: url(../assets/images/imagens-menu/main-menu.jpg); }
     25% { background-image: url(../assets/images/imagens-menu/main-menu-02.jpg); }
     50% { background-image: url(../assets/images/imagens-menu/main-menu-03.jpg); }
@@ -75,3 +101,4 @@ li > a:hover::after{
         height: 180vh;
     }
 }
+
