@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: "Chinese Rocks";
+}
+
+.container{
+    margin: 5% 8%;
+    letter-spacing: 4px;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+}
+img{
+    width: 100%;
+}
+
+.card-container {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.card {
+    background-color: #d3d3d3; 
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.infoCard{
+    text-align: left;
+    padding: 15px;
+}
+.descricaoCard{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
