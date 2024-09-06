@@ -1,22 +1,35 @@
 body{
-    animation: backround-animate 40s infinite;
-    transition: background-image 2s ease-in-out;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 60px;
     background-color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: flex-start;
 }
 .logo > img{
     height: 250px;
 }
 .menu-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: white;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    animation: backround-animate 40s infinite;
+    transition: background-image 2s ease-in-out;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
 }
 .options{
     height: 100%;
@@ -34,7 +47,7 @@ body{
     transform: scale(1.2);
     transition: 0.2s;
 }
-a{
+.options > ul > li > a{
     text-decoration: none;
     color: white;
     position: relative;
@@ -65,7 +78,7 @@ a{
     opacity: 0.8;
 }
 
-li > a::after{
+li > .item::after{
     content: " ";
     width: 0%;
     height: 5px;
@@ -88,6 +101,39 @@ li > a:hover::after{
     font-weight: 200;
     font-family: 'Chinese Rocks Rg';
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #ffffff;
+    padding-top: 25px;
+    
+}
+#devs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list{
+    list-style: none;
+}
+.list > li{
+    padding: 10px;
+    font-size: 18px;
+}
+.fa-brands, .fa-brands::before{
+    padding-right: 15px;
+}
+.dev{
+    text-decoration: none;
+    color: white;    
+}
+
+.dev > i:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 @keyframes backround-animate{
     0% { background-image: url(../assets/images/imagens-menu/main-menu.jpg); }
     25% { background-image: url(../assets/images/imagens-menu/main-menu-02.jpg); }
@@ -95,10 +141,25 @@ li > a:hover::after{
     75% { background-image: url(../assets/images/imagens-menu/main-menu-04.jpg); }
     100% { background-image: url(../assets/images/imagens-menu/main-menu.jpg); }
 }
-
-@media(orientation: landscape) and (max-width: 1260px) and (min-width: 200px){
-    body{
-        height: 180vh;
+@media(max-width: 460px){
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
+
+@media screen and (min-width: 1025px) {
+    .menu-content{
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .menu-content{
+        height: 200vh;
+    }
+}
+
+
 
