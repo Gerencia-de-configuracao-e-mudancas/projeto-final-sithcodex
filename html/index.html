@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main menu</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fonts/stylesheet.css">
     <script src="https://kit.fontawesome.com/cabab9bb0d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -14,15 +15,19 @@
 
     <main class="menu-content">
         <div class="logo">
-            <img src="../assets/icons/image 1.png" alt="">
+            <img onclick="msg()" src="../assets/icons/image 1.png" alt="">
+            <div id="video">
+
+            </div>
         </div>
         <div class="options">
             <ul>
                 <li><a class="item first" href="">História</a></li>
                 <li><a class="item second" href="">Gangues</a></li>
-                <li><a class="item last" href="">Animais</a></li>
+                <li><a id="option" class="item last" href="">Animais</a></li>
             </ul>
         </div>
+        
     </main>
     <!--Rodapé-->
     <footer>
@@ -30,12 +35,14 @@
         <div id="devs">
             <h2>&copy; 2024 Desenvolvedores</h2>
             <ul class="list">
-                <li><a class="dev" href="https://github.com/LucasPaulo001" target="_blank"><i class="fa-brands fa-github">Lucas Paulo</a></i></li>
-                <li><a class="dev" href="https://github.com/rraquelof" target="_blank"><i class="fa-brands fa-github">Raquel Oliveira</a></i></li>
-                <li><a class="dev" href="https://github.com/LuanTomaz" target="_blank"><i class="fa-brands fa-github">Luan Tomaz</a></i></li>
+                <li><a class="dev" href="https://github.com/LucasPaulo001" target="_blank"><i class="fa-brands fa-github"></a></i>Lucas Paulo</li>
+                <li><a class="dev" href="https://github.com/rraquelof" target="_blank"><i class="fa-brands fa-github"></a></i>Raquel Oliveira</li>
+                <li><a class="dev" href="https://github.com/LuanTomaz" target="_blank"><i class="fa-brands fa-github"></a></i>Luan Tomaz</li>
             </ul>
         </div>
     </footer>
+
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
