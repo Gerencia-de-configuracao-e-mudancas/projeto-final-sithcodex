@@ -27,18 +27,54 @@ img{
 
 
 .card {
+    margin: 0;
     background-color: #d3d3d3; 
     border-radius: 8px;
     overflow: hidden;
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
 }
-.infoCard{
+
+.card:hover{
+    border: red 1px solid;
+    transition: 0.4s;
+    
+}
+.modal-body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 40%;
+    justify-items: center;
+    
+ }
+ .modal-header, .modal-body, .modal-footer{
+     background-color: rgb(0, 0, 0);
+     color: white;
+ }
+.info-card{
     text-align: left;
     padding: 15px;
 }
-.descricaoCard{
+.descricaoCard, .text-modal {
     font-size: 15px;
     letter-spacing: 2px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.modal-body {
+    max-height: 70vh; 
+    overflow-y: auto; 
+  }
+
+  @media (max-width: 700px) {
+    .container{
+        display: grid;
+        justify-items: center;
+    }
+    .modal-dialog {
+      width: 80%; 
+      margin: auto;
+    }
+  }
+  
+  
