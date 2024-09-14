@@ -1,0 +1,18 @@
+#body_historia{
+    background-color: black;
+    box-sizing: border-box;
+}
+#header_historia{
+    color: white;
+    border-bottom: 1px, solid white;
+    border-width: 90%;
+    padding-left: 20px;
+}
+.conteudo{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+.icon_cap{
+    margin-left: 15px;
+}
