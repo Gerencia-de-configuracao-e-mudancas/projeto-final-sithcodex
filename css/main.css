@@ -175,3 +175,184 @@ footer{
 
 
 
+#body_animals{
+    background-color: black;
+    box-sizing: border-box;
+}
+#header_animals{
+    color: white;
+    border-bottom: 1px solid white;
+    border-width: 90%;
+    padding-left: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.cards_content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.icon > img{
+    min-height: 200px;  
+    border-radius: 30px 30px 0 0; 
+    width: 100%;
+}
+.txt{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card_animal{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    max-width: 275px;
+    
+}
+
+.card_animal:hover{
+    border: red 1px solid;
+    transition: 0.4s;
+    
+}
+.card_animal:hover .txt{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.urso, .jacare, .servo, .coelho, .aguia, .bisao, .javali{
+    background-color: rgba(78, 78, 78, 0.76);
+    width: 100%;
+    border-radius: 35px;
+    margin: 2%;
+    padding-bottom: 20px;
+}
+.urso:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/ursoss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+    
+}
+.jacare:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/jacare-am.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.servo:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/antilocapra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.coelho:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/coelho.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.aguia:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/Gralha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.bisao:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/bisão.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.javali:hover{
+    background-image: url(../assets/images/imagens-cards-animais/imagens-janela-modal/img_cards/javali.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.card_animal > .btn-primary:hover{
+    background-color: rgb(253, 39, 39);
+    border: 1px solid red;
+}
+
+.card_animal > .btn-primary{
+    border: 1px solid white;
+    background-color: rgb(34, 34, 34);
+    width: 100px;
+}
+
+.btn-custom{
+    background-color: red;
+}
+
+.modal-body{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 40%;
+   justify-items: center;
+   
+}
+.modal-header, .modal-body, .modal-footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+@media(max-width: 850px){
+    .cards_content{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    .card_animal{
+        width: 100%;
+    }
+}
+
+@media(max-width: 750px){
+    .cards_content{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+    .card_animal{
+        width: 100%;
+    }
+    
+}
+@media(max-width: 600px){
+    .cards_content{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    .card_animal{
+        width: 100%;
+    }
+    .modal{
+        width: 100%;
+    }
+    .modal-body{
+        height: 100vh;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt_modal{
+        width: 250px;
+    }
+}
