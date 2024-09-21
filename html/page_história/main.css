@@ -8,11 +8,166 @@
     border-width: 90%;
     padding-left: 20px;
 }
+.txt{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    color: rgba(248, 248, 248, 0.643);
+    background-color:rgb(34, 34, 34);
+    border-radius: 0 0 25px 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+button.btn-primary{
+    width: 50%;
+}
 .conteudo{
     justify-content: center;
     display: flex;
     padding-top: 20px;
 }
-.icon_cap{
-    margin-left: 15px;
+.square{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    border-radius: 20px;
+}
+.icon_cap>img{
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    min-height: 200px;
+}
+.card_capitulo{
+    display: grid;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 30px;
+}
+.card_capitulo:hover{
+    transition: 0 .5s;
+    border: red 2px solid;
+}
+.card_capitulo:hover .txt{
+    background-color: rgba(0, 0, 0, 0.315);
+}
+.primeiro:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_01/cap1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.segundo:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_02/cap2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.terceiro:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_03/cap3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.quarto:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_04/cap4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.quinto:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_05/cap5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.sexto:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_06/cap6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.setimo:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_07/cap7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.oitavo:hover .txt{
+    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_08/cap8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+div.modal-content {
+    width: 100%;
+    height: 90%;
+    background-color: black;
+    align-items: center;
+    max-width: 800px;
+    min-width: 750px;
+    color: white;
+    justify-content: center;
+}
+.modal-dialog{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img_modal > img{
+    height: 450px;
+    width: 650px;
+    display: flex;
+}
+
+.modal-body{
+    display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 40%;
+   justify-items: center;
+   align-items: center;
+}
+.btn-primary{
+    background-color: red;
+}
+.txt > .btn-primary{
+    background-color: rgb(49, 49, 49);
+    border: red;
+}
+.txt > .btn-primary:hover{
+    background-color: red;
+    transition: 0.4s;
+}
+@media(max-width:1200px){
+    .square{
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:800px){
+    .square{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.icon_cap > img{
+    min-height: 400px;
+    width: 100%;
 }
