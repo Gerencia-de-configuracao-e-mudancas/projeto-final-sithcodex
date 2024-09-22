@@ -18,7 +18,7 @@ img{
 }
 
 .card-container {
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -28,7 +28,7 @@ img{
 
 .card {
     margin: 0;
-    background-color: #d3d3d3; 
+    background-color: rgb(32, 32, 32); 
     border-radius: 8px;
     overflow: hidden;
     max-width: 300px;
@@ -40,6 +40,51 @@ img{
     border: red 1px solid;
     transition: 0.4s;
     
+}
+
+.primeiro:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_corja_dos_murfrees.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.segundo:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_gangue_del_lobos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+
+.terceiro:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_gangue_laramie.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+
+.quarto:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_irmaos_skinner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.quinto:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_o\'driscolls.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
+}
+.sexto:hover{
+    background-image: url("../assets/images/imagens-cards-gangues/imagens-janela-modal/janela_saqueadores_de_lemoyne.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.6s;
 }
 .modal-body{
     display: grid;
