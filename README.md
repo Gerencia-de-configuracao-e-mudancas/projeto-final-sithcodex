@@ -1,1 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Fay9ZpcF)
+<h1>Site - Red Dead Redemption 2 - Game</h1>
+
+## :pushpin: Descrição do projeto.
+- O site aborda tópicos gerais sobre o jogo: História, Gangues e animais presentes no jogo.
+  
+## 🛠️ Funcionalidades do projeto.
+- Efeitos sonoros, aúdios em alguns elementos.
+- Ester eggs
+- Resumos diretos sobre cada tópico
+- Layout responsível para dispositivos móveis
+
+## 👽 Códigos - ester eggs
+- <h2>1º Clique na logo do jogo no menu principal</h2>
+- Código - Música de fundo no menu:``redstaraudio2``
+- Código - Mapa do jogo: ``redmap``
+- Código - Wallpapper para download: ``redwallpapperart``
+- Código - Vídeo secreto no menu principal: ``redstarmeme``
+
+## ✔️ Tecnologias utilizadas
+
+- ``HTML5``
+- ``CSS3``
+- ``JavaScript``
+## 📁 Acessando o projeto
