@@ -60,56 +60,56 @@ button.btn-primary{
     background-color: rgba(0, 0, 0, 0.315);
 }
 .primeiro:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_01/cap1.jpg);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_01/cap1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .segundo:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_02/cap2.jpg);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_02/cap2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .terceiro:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_03/cap3.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_01/cap1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .quarto:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_04/cap4.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_04/cap4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .quinto:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_05/cap5.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_05/cap5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .sexto:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_06/cap6.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_06/cap6.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .setimo:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_07/cap7.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_07/cap7.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     transition: 0.6s;
 }
 .oitavo:hover .txt{
-    background-image: url(../../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_08/cap8.png);
+    background-image: url(../assets/images/imagens-cards-história/imagens_janela_modal/Janela_modal_08/cap8.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
