@@ -9,7 +9,7 @@
 - Resumos diretos sobre cada tópico
 - Layout responsível para dispositivos móveis
 
-## 👽 Códigos - ester eggs
+## 👽 Códigos - Easter eggs:
 - <h2>1º Clique na logo do jogo no menu principal</h2>
 - Código - Música de fundo no menu:``redstaraudio2``
 - Código - Mapa do jogo: ``redmap``
