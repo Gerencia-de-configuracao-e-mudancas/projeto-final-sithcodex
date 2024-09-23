@@ -8,7 +8,7 @@ function msg(){
    else if(senha == 'redstarmeme'){
         var meme = document.getElementById('video');
         var video = document.createElement('video');
-        video.src = '../assets/video/meme.mp4';
+        video.src = './assets/video/meme.mp4';
         video.controls = true;
         video.width = 350;
         video.height = 250;
