@@ -20,7 +20,7 @@
     border-radius: 0 0 25px 25px;
     justify-content: space-between;
     align-items: center;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
 }
 button.btn-primary{
     width: 50%;
@@ -45,9 +45,9 @@ button.btn-primary{
 .card_capitulo{
     display: grid;
     max-width: 500px;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     border-radius: 30px;
@@ -116,6 +116,7 @@ button.btn-primary{
     transition: 0.6s;
 }
 div.modal-content {
+    
     width: 100%;
     background-color: black;
     align-items: center;
@@ -176,8 +177,32 @@ div.modal-content {
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(2, 1fr);
     }
+    div.modal-content {
+        display: flex;
+        align-items: center;
+        /*width: 100%;*/
+        background-color: black;
+        /*align-items: center;*/
+        max-width: 400px;
+        min-width: 250px;
+        color: white;
+        justify-content: center;
+        height: 80%;
+    }
+    .img_modal > img{
+        height: 250px;
+        width: 70%;
+        display: flex;
+    }
+    .img_modal{
+        display: flex;
+        justify-content: center;
+    }
+}
+.icon_cap{
+    height: 100%;
 }
 .icon_cap > img{
-    min-height: 400px;
+    min-height: 100%;
     width: 100%;
 }
