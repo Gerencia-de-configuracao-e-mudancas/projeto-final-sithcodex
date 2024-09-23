@@ -2,7 +2,7 @@
 function msg(){
    let senha = prompt('Digite a senha: ');
    if(senha == 'redstaraudio2'){
-        var audio = new Audio('../assets/audio/audio_secret.mp3');
+        var audio = new Audio('./assets/audio/audio_secret.mp3');
         audio.play();
    }
    else if(senha == 'redstarmeme'){
@@ -30,7 +30,7 @@ var links = document.querySelectorAll('.item');
 links.forEach(link => {
     link.addEventListener('click', function(event) {
         event.preventDefault();
-        var audioEfect = new Audio('../assets/audio/efeito_sonoro.mp3');
+        var audioEfect = new Audio('./assets/audio/efeito_sonoro.mp3');
         audioEfect.play();
         setTimeout(() => {
             window.location.href = this.href;
